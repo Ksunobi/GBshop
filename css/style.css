@@ -208,12 +208,12 @@ body {
 }
 
 .header-menu-link {
-    color: darkblue;
+    /* color: darkblue; */
     text-decoration: none;
 }
 
 .header-menu-link:active {
-    color: red;
+    /* color: red; */
     cursor: pointer;
 }
 
