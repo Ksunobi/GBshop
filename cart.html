@@ -115,72 +115,94 @@
         </div>
     </header>
     <main class="main">
-        <section class="main__registration-text">
+        <section class="main__cart-text">
             <div class="container">
-                <h1 class="main__registration-text--title">registration</h1>
+                <h1 class="main__cart-text--title">shopping cart</h1>
             </div>
         </section>
-        <section class="main__registration-title">
+        <section class="main__shoping-cart">
             <div class="container">
-                <div class="main__container">
-                    <div class="main__registration-form">
-                        <form class="main__form" action="#">
-                            <fieldset class="main__form-border">
-                                <legend class="main__form-title">Your Name</legend>
-                                <label for="first-name">
-                                    <span class="visually-hidden">first-name</span>
-                                    <input class="main__form-input" id="first-name" type="name" placeholder="First Name"
-                                        required>
-                                </label><br>
-                                <label for="second-name">
-                                    <span class="visually-hidden">second-name</span>
-                                    <input class="main__form-input main__form-input--sname" id="second-name" type="text"
-                                        placeholder="Last Name" required></label><br>
-                                <input class="main__form-radio custom-radio" type="radio" name="sex" id="male">
-                                <label class="main__form-sex" for="male">
-                                    <p class="main__form-radio-text">Male</p>
-                                    <span class="visually-hidden">radio-male</span>
-                                </label>
-                                <input class="main__form-radio custom-radio" type="radio" name="sex" id="female">
-                                <label class="main__form-sex" for="female">
-                                    <p class="main__form-radio-text">Female</p>
-                                    <span class="visually-hidden">radio-female</span>
-                                </label><br>
-                            </fieldset>
-                            <fieldset class="main__form-border">
-                                <legend class="main__form-title">Login details</legend>
-                                <label for="email">
-                                    <span class="visually-hidden">email</span>
-                                    <input class="main__form-input" type="email" id="email" placeholder="Email"
-                                        required></label><br>
-                                <label for="password">
-                                    <span class="visually-hidden">password</span>
-                                    <input class="main__form-input main__form-input--password" type="password"
-                                        id="password" placeholder="Password" required>
-                                    <p class="main__form-text">Please use 8 or more characters, with at least 1 number
-                                        and a mixture of
-                                        uppercase and lowercase letters</p><br>
-                                </label>
-                            </fieldset>
-                            <button type="submit" class="main__form-button">join now <img class="main__form-arrow"
-                                    src="./img/arrow.svg" alt="arrow"></button><br>
-                        </form>
-                    </div>
-                    <div class="main__registration-article">
-                        <h1 class="main__registration-article--title">loyalty has its perks</h1>
-                        <h3 class="main__registration-article--text">Get in on the loyalty program where you can earn
-                            points
-                            and unlock serious perks. starting
-                            with
-                            these as soon as you join:</h3>
-                        <ul class="main__registration-article--list">
-                            <li class="main__registration-article--items">15% off welcome offer</li>
-                            <li class="main__registration-article--items">Free shipping, returns and exchanges on all
-                                orders</li>
-                            <li class="main__registration-article--items">$10 off a purchase on your birthday</li>
-                            <li class="main__registration-article--items">Early access to products</li>
-                            <li class="main__registration-article--items">Exclusive offers & rewards</li>
+                <div class="shopping__container">
+                    <div class="main__shoping-cart-item">
+                        <ul class="shoping-cart__list">
+                            <li class="shoping-cart__item--cart">
+                                <div class="shoping-cart__item">
+                                    <img class="shoping-cart__img" src="./img/shoping1.png" alt="clothes">
+                                    <div class="shoping__cart-article">
+                                        <div class="cart__text">
+                                            <h1 class="shoping-cart__title">mango people t&ndash;shirt
+                                            </h1>
+                                            <p class="shoping-cart__text">Price: <span
+                                                    class="shoping-cart__text--price">$300</span>
+                                            </p>
+                                            <p class="shoping-cart__text">Color: Red</p>
+                                            <p class="shoping-cart__text">Size: Xl</p>
+                                            <p class="shoping-cart__text">Quantity: <span
+                                                    class="shoping-cart__text--number">2</span>
+                                            </p>
+                                        </div>
+                                        <img class="shoping-cart__close" src="./img/close.png" alt="close">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="shoping-cart__item--cart">
+                                <div class="shoping-cart__item">
+                                    <img class="shoping-cart__img" src="./img/shoping2.png" alt="clothes">
+                                    <div class="shoping__cart-article">
+                                        <div class="cart__text">
+                                            <h1 class="shoping-cart__title">mango people t&ndash;shirt
+                                            </h1>
+                                            <p class="shoping-cart__text">Price: <span
+                                                    class="shoping-cart__text--price">$300</span>
+                                            </p>
+                                            <p class="shoping-cart__text">Color: Red</p>
+                                            <p class="shoping-cart__text">Size: Xl</p>
+                                            <p class="shoping-cart__text">Quantity: <span
+                                                    class="shoping-cart__text--number">2</span>
+                                            </p>
+                                        </div>
+                                        <img class="shoping-cart__close" src="./img/close.png" alt="close">
+                                    </div>
+                                </div>
+                            </li>
                         </ul>
+                        <div class="shoping-cart__button">
+                            <button type="button" class="cart__button">clear shopping cart</button>
+                            <button type="button" class="cart__button">continue shopping</button>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="shoping__form">
+                            <form action="#">
+                                <fieldset class="form-fieldset">
+                                    <legend class="form-legend">shipping adress</legend>
+                                    <label for="country">
+                                        <span class="visually-hidden">state</span>
+                                        <input placeholder="Bangladesh" class="shoping__input" type="text"
+                                            name="country" id="country" required>
+                                    </label><br>
+                                    <label for="city">
+                                        <span class="visually-hidden">city</span>
+                                        <input placeholder="State" class="shoping__input" type="text" name="city"
+                                            id="city" required>
+                                    </label><br>
+                                    <label for="index">
+                                        <span class="visually-hidden">index</span>
+                                        <input placeholder="Postcode / Zip" class="shoping__input" type="text"
+                                            name="index" id="index" required>
+                                    </label><br>
+                                    <button type="button" class="shoping__button--quote">get a quote</button>
+                                </fieldset>
+                                <div class="shoping__checkout">
+                                    <p class="checkout__text">sub total <span class="checkout__text--price">$900</span>
+                                    </p>
+                                    <h3 class="checkout__title">grand total <span
+                                            class="checkout__title--price">$900</span></h3>
+                                    <hr class="checkout__line">
+                                    <button type="submit" class="checkout__button">proceed to checkout</button>
+                                </div>
+                            </form>
+                        </div>
                     </div>
                 </div>
             </div>
