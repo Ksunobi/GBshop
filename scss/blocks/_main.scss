@@ -1,0 +1,200 @@
+.main__registration-text {
+    background-color: $registration-bkg;
+    min-height: 148px;
+}
+
+.main__registration-text--title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: $pink-txt;
+    text-transform: uppercase;
+    padding-top: 59px;
+}
+
+.main__registration-form {
+    margin-right: 128px;
+}
+
+.main__form {
+    flex-direction: column;
+}
+
+.main__container {
+    display: flex;
+    padding-top: 64px;
+}
+
+.main__registration-title {
+    min-height: 675px;
+}
+
+.main__registration-article--title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+}
+
+.main__registration-article--text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    margin-top: 22px;
+    margin-bottom: 21px;
+    width: 652px;
+}
+
+.main__registration-article--items {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    position: relative;
+    margin-left: 42px;
+    margin-bottom: 16px;
+}
+
+.main__registration-article--items::before {
+    content: '';
+    background-image: url(../img/done.svg);
+    width: 20px;
+    height: 16px;
+    /* background-color: #ccc; */
+    position: absolute;
+    background-size: 20px 16px;
+    left: -42px;
+    top: 6px;
+}
+
+.main__form-border {
+    border: none;
+}
+
+.main__form-title {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: $black-bkg;
+    margin-bottom: 20px;
+}
+
+.main__form-input {
+    width: 360px;
+    height: 45px;
+    border: 1px solid $gray;
+    margin-bottom: 20px;
+    padding-left: 17px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: $black-gray;
+}
+
+.main__form-input::-webkit-input-placeholder {
+    color: $new-gray;
+}
+
+.main__form-input:focus {
+    outline: 1px solid $sales-title;
+}
+
+input:-webkit-autofill {
+    box-shadow: inset 0 0 0 50px $light-pink !important;
+}
+
+.main__form-input--sname {
+    margin-bottom: 31px;
+}
+
+.main__form-radio {
+    margin-bottom: 33px;
+}
+
+.main__form-sex {
+    margin-right: 20px;
+    margin-bottom: 33px;
+}
+
+.main__form-radio-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 13px;
+    color: $black;
+    margin-right: 0;
+}
+
+.main__form-input--password {
+    margin-bottom: 15px;
+}
+
+.main__form-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 16px;
+    color: $new-gray;
+    width: 359px;
+    margin-bottom: 39px;
+}
+
+.main__form-button {
+    cursor: pointer;
+    color: $sales-txt;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    padding: 16px 29px 17px 29px;
+    border: none;
+    outline: none;
+    background-color: $pink-txt;
+}
+
+.main__form-button:hover {
+    background-color: $button-hover;
+}
+
+.main__form-button:active {
+    background-color: $button-hover;
+}
+
+.main__form-button:focus {
+    background-color: $hover-txt;
+}
+
+.main__form-arrow {
+    margin-left: 20px;
+}
+
+/* cart */
+
+.main__cart-text {
+    background-color: $registration-bkg;
+    min-height: 148px;
+}
+
+.main__cart-text--title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: $pink-txt;
+    text-transform: uppercase;
+    padding-top: 59px;
+}
+
+.main__shopping-cart {
+    min-height: 998px;
+}
+
+.main__shopping-cart-item {
+    margin-right: 128px;
+}

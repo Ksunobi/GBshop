@@ -1,0 +1,34 @@
+.cart__text {
+    width: 262px;
+}
+
+
+.cart__button {
+    text-transform: uppercase;
+    padding: 17px 40px;
+    background-color: transparent;
+    outline: 1px solid $gray;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    cursor: pointer;
+    border: none;
+}
+
+.cart__button:hover {
+    box-shadow: 0px 0px 10px $box-shadow;
+    color: $pink-txt;
+    outline: 1px $pink-txt;
+}
+
+.cart__button:active {
+    background-color: $hover-txt;
+    color: #FFF;
+}
+
+.cart__button:focus {
+    box-shadow: 0px 0px 10px $box-shadow;
+    color: $pink-txt;
+    outline: 1px $pink-txt;
+}

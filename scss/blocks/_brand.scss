@@ -1,0 +1,47 @@
+.brand {
+    display: flex;
+    background-color: $pink-bkg;
+}
+
+.brand__img {
+    width: 800px;
+    height: 765px;
+}
+
+.brand__title-wrp {
+    flex-grow: 1;
+    padding: 0 0 0 92px;
+    display: flex;
+    align-items: center;
+}
+
+.brand__title {
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 58px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+.brand__title::before {
+    content: '';
+    width: 12px;
+    height: 92px;
+    background-color: $pink-txt;
+    position: absolute;
+    left: -28px;
+}
+
+.brand__title-lower {
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+    text-transform: uppercase;
+    display: block;
+}
+
+.brand__title-pink {
+    color: $pink-txt;
+}

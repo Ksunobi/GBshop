@@ -1,0 +1,71 @@
+.checkout__text {
+    text-align: right;
+    padding-top: 39px;
+    padding-right: 43px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: $dark-gray;
+    text-transform: uppercase;
+}
+
+.checkout__title {
+    text-align: right;
+    padding-top: 12px;
+    text-transform: uppercase;
+    padding-right: 43px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: $black-bkg;
+    padding-bottom: 21px;
+}
+
+.checkout__text--price {
+    padding-left: 15px;
+}
+
+.checkout__title--price {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: $pink-txt;
+    padding-left: 15px;
+}
+
+.checkout__line {
+    width: 275px;
+    background-color: $bkg-light;
+    margin: 0 auto;
+}
+
+.checkout__button {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    color: $sales-txt;
+    background-color: $pink-txt;
+    border: none;
+    outline: none;
+    text-transform: uppercase;
+    margin: auto;
+    display: flex;
+    margin-top: 17px;
+    padding: 15px 42px;
+    cursor: pointer;
+}
+
+.checkout__button:hover {
+    background-color: $button-hover;
+}
+
+.checkout__button:active {
+    background-color: $button-hover;
+}
+
+.checkout__button:focus {
+    background-color: $hover-txt;
+}
