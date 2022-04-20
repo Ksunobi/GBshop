@@ -1,0 +1,49 @@
+.custom-radio {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-radio+.main__form-sex {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.custom-radio+.main__form-sex::before {
+    content: '';
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid $gray;
+    border-radius: 30px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+    cursor: pointer;
+}
+
+.custom-radio:checked+label::before {
+    border-color: $gray;
+    background-image: url(../img/checked.svg);
+}
+
+.custom-radio:not(:disabled):not(:checked)+label:hover::before {
+    border-color: $sales-title;
+}
+
+.custom-radio:not(:disabled):active+label::before {
+    background-color: $box-shadow;
+    border-color: $box-shadow;
+}
+
+.custom-radio:focus+label::before {
+    box-shadow: 0px 0px 5px 1px $box-shadow;
+}
+
+.custom-radio:focus:not(:checked)+label::before {
+    border-color: $blue;
+}

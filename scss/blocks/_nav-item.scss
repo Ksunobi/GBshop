@@ -1,0 +1,45 @@
+.nav-item__title {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    color: $pink-txt;
+    margin-left: 33px;
+    margin-bottom: 12px;
+    margin-top: 20px;
+}
+
+.nav-item__title--man {
+    margin-top: 24px;
+}
+
+.nav-item__item {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 55px;
+    margin-bottom: 11px;
+}
+
+.nav-item__item--link {
+    text-decoration: none;
+    color: $black;
+}
+
+.nav-item__item--link:hover {
+    color: $pink-txt;
+}
+
+.nav-item__item--link:active {
+    color: $pink-txt;
+}
+
+.nav-item__item--link:focus {
+    color: $hover-txt;
+}
+
+.nav-item__item:first-letter {
+    text-transform: uppercase;
+}
