@@ -1,0 +1,55 @@
+.footer-form {
+    background-color: $black-bkg;
+}
+
+.footer-form__copy {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: $light-text;
+
+    @include mobile {
+        margin-bottom: 9px;
+    }
+}
+
+.footer-form__list {
+    display: flex;
+    align-items: center;
+
+    @include mobile {
+        margin-top: 43px;
+    }
+}
+
+.footer-form__social {
+    width: 31px;
+    height: 32px;
+    background: $sales-txt;
+    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 7px;
+}
+
+.footer-form__social--icon {
+    fill: $black;
+}
+
+.footer-form__social:hover {
+    background-color: $pink-txt;
+}
+
+.footer-form__social:active {
+    background-color: $pink-txt;
+}
+
+.footer-form__social:focus {
+    background-color: $hover-txt;
+}
+
+.footer-form__social:hover .footer-form__social--icon {
+    fill: $sales-txt;
+}

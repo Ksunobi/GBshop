@@ -30,6 +30,10 @@
 .header__search-icon:hover>.header__search-input {
     width: 240px;
     color: $light-color;
+
+    @include mobile {
+        width: 150px;
+    }
 }
 
 .header__search-icon:hover>.header__search-button {
@@ -181,6 +185,18 @@
     width: 232px;
     height: 764px;
     box-shadow: 6px 4px 35px $dark-box-shadow;
+
+    @include tablet {
+        left: auto;
+        right: auto;
+        z-index: 1;
+    }
+
+    @include mobile {
+        left: auto;
+        right: auto;
+        z-index: 1;
+    }
 }
 
 .header-menu--close {
@@ -287,4 +303,20 @@
 
 .header__link {
     margin: 0 0 0 33px;
+}
+
+// @media (max-width: $desktop-width) {
+//     .header__link--person {
+//         display: none;
+//     }
+// }
+
+@media (max-width: $tablet-width) {
+    .header__link--person {
+        display: none;
+    }
+
+    .header__link--basket {
+        display: none;
+    }
 }

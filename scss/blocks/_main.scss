@@ -11,10 +11,22 @@
     color: $pink-txt;
     text-transform: uppercase;
     padding-top: 59px;
+
+    @include mobile {
+        text-align: center;
+    }
 }
 
 .main__registration-form {
     margin-right: 128px;
+
+    @include tablet {
+        margin-right: 22px;
+    }
+
+    @include mobile {
+        margin-right: 0;
+    }
 }
 
 .main__form {
@@ -24,10 +36,28 @@
 .main__container {
     display: flex;
     padding-top: 64px;
+
+    @include tablet {
+        padding-top: 40px;
+        justify-content: center;
+    }
+
+    @include mobile {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .main__registration-title {
     min-height: 675px;
+}
+
+.main__registration-article {
+    @include mobile {
+        margin-top: 40px;
+        max-width: 375px;
+        margin-bottom: 96px;
+    }
 }
 
 .main__registration-article--title {
@@ -36,6 +66,11 @@
     font-size: 24px;
     line-height: 29px;
     text-transform: uppercase;
+
+    @include tablet {
+        font-size: 16px;
+        line-height: 19px;
+    }
 }
 
 .main__registration-article--text {
@@ -46,6 +81,13 @@
     margin-top: 22px;
     margin-bottom: 21px;
     width: 652px;
+
+    @include tablet {
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 354px;
+        margin-top: 32px;
+    }
 }
 
 .main__registration-article--items {
@@ -56,6 +98,18 @@
     position: relative;
     margin-left: 42px;
     margin-bottom: 16px;
+
+    @include tablet {
+        font-size: 16px;
+        line-height: 19px;
+        max-width: 311px;
+    }
+}
+
+.main__registration-article--txt {
+    @include tablet {
+        margin-bottom: 26px;
+    }
 }
 
 .main__registration-article--items::before {
@@ -84,8 +138,8 @@
 }
 
 .main__form-input {
-    width: 360px;
-    height: 45px;
+    width: 339px;
+    height: 41px;
     border: 1px solid $gray;
     margin-bottom: 20px;
     padding-left: 17px;
@@ -189,6 +243,10 @@ input:-webkit-autofill {
     color: $pink-txt;
     text-transform: uppercase;
     padding-top: 59px;
+
+    @include mobile {
+        text-align: center;
+    }
 }
 
 .main__shopping-cart {
@@ -197,4 +255,9 @@ input:-webkit-autofill {
 
 .main__shopping-cart-item {
     margin-right: 128px;
+
+    @include tablet {
+        margin-right: 0;
+        width: 100%;
+    }
 }
