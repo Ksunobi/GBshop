@@ -45,3 +45,62 @@
 .brand__title-pink {
     color: $pink-txt;
 }
+
+@media (max-width: $desktop-width) {
+    .brand__title-wrp {
+        padding: 0 0 0 68px;
+    }
+
+    .brand__img {
+        height: 100%;
+    }
+
+    .brand__title {
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 53px;
+    }
+
+    .brand__title-lower,
+    .brand__title-pink {
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 29px;
+    }
+}
+
+@media (max-width: $desktop-mid-width) {
+    .brand__img {
+        height: 368px;
+        width: 386px;
+        ;
+    }
+}
+
+@media (max-width: $tablet-width) {
+    .brand__title-wrp {
+        height: 363px;
+        justify-content: center;
+    }
+
+    .brand__title {
+        font-style: normal;
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 46px;
+    }
+
+    .brand__title-lower,
+    .brand__title-pink {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    .brand__img {
+        display: none;
+    }
+}

@@ -1,5 +1,9 @@
 .form-fieldset {
     margin-bottom: 57px;
+
+    @include mobile {
+        margin-bottom: 48px;
+    }
 }
 
 .form-legend {

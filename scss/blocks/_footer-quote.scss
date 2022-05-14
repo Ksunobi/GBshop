@@ -1,0 +1,126 @@
+.footer-quote {
+    background-image: url(../img/bkg-img.jpg);
+    min-height: 448px;
+    background-color: $gray-c;
+    background-size: cover;
+}
+
+.footer-quote__wrp {
+    display: flex;
+    gap: 236px;
+
+    @include tablet {
+        flex-direction: column;
+        gap: 48px;
+        align-items: center;
+    }
+}
+
+.footer-quote__avatar {
+    width: 96px;
+    display: block;
+    margin: 0 auto;
+}
+
+.footer-quote__wrp-quote {
+    flex-direction: column;
+    width: 359px;
+    align-items: center;
+    margin-top: 97px;
+}
+
+.footer-quote__quote {
+    width: 359px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-quote__quote--italic {
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.footer-quote__form {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-quote__title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer-quote__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167.2%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.footer-quote__form--form {
+    display: flex;
+    justify-content: center;
+    border-radius: 60px;
+    margin-top: 32px;
+    align-items: center;
+}
+
+.footer-quote__form--input {
+    border-radius: 64px 0 0 64px;
+    border: none;
+    width: 256px;
+    height: 49px;
+    padding-left: 22px;
+    color: $black-gray;
+
+    @include mobile {
+        width: 245px;
+    }
+}
+
+.footer-quote__form--input:focus {
+    outline: none;
+}
+
+.footer-quote__form--button {
+    border-radius: 0px 64px 64px 0px;
+    border: none;
+    background-color: $pink-txt;
+    width: 100px;
+    height: 51px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    color: $sales-txt;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.footer-quote__form--button:hover {
+    background-color: $button-hover;
+}
+
+.footer-quote__form--button:active {
+    background-color: $button-hover;
+}
+
+.footer-quote__form--button:focus {
+    background-color: $hover-txt;
+}
