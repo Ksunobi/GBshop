@@ -518,6 +518,10 @@ table {
   }
 }
 
+.footer-products {
+  position: relative;
+}
+
 .form-fieldset {
   margin-bottom: 57px;
 }
@@ -1123,6 +1127,15 @@ input:-webkit-autofill {
   }
 }
 
+.main__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-prod {
+  min-height: 664px;
+}
+
 .nav-item__title {
   text-transform: uppercase;
   font-style: normal;
@@ -1491,15 +1504,20 @@ input:-webkit-autofill {
   cursor: pointer;
 }
 
-.sales__title:hover {
+.sales__title-href {
+  text-decoration: none;
+  color: #F16D7F;
+}
+
+.sales__title-href:hover {
   color: #D86070;
 }
 
-.sales__title:active {
+.sales__title-href:active {
   color: #D86070;
 }
 
-.sales__title:focus {
+.sales__title-href:focus {
   color: #EE8E9B;
 }
 

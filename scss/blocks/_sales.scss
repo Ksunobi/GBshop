@@ -101,17 +101,21 @@
     text-align: center;
     text-transform: uppercase;
     cursor: pointer;
-
 }
 
-.sales__title:hover {
+.sales__title-href {
+    text-decoration: none;
+    color: $sales-title;
+}
+
+.sales__title-href:hover {
     color: $hover-txt;
 }
 
-.sales__title:active {
+.sales__title-href:active {
     color: $hover-txt;
 }
 
-.sales__title:focus {
+.sales__title-href:focus {
     color: $pink;
 }
