@@ -261,3 +261,12 @@ input:-webkit-autofill {
         width: 100%;
     }
 }
+
+.main__nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-prod {
+    min-height: 664px;
+}
